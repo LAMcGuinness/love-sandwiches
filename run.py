@@ -99,10 +99,6 @@ def get_last_five_entries_sales():
 
     return columns
 
-    #column = sales.col_values(3)
-    #print(column)
-
-
 def main():
     """
     Run all program functions
@@ -115,5 +111,5 @@ def main():
 
 print("Welcome to Love Sandwiches Data Automation")
 
-#main()
-get_last_five_entries_sales()
+
+sales_columns = get_last_five_entries_sales()
